@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.header__img {
+    width: 3.563rem;
+    height: 3.563rem;
+    border-radius: 3.563rem;
+}
+
+.header__span {
+    color: var(--texto);
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.header__p {
+    color: var(--texto-claro);
+    font-size: 0.875rem;
+    line-height: 160%;
+    margin: 0rem;
+}
+
+.header__text {
+    display: flex;
+    flex-direction: column;
+}

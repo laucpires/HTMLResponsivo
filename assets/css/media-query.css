@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* TYPICAL DEVICE BREAKPOINTS
+--------------------------
+DISPOSITIVOS MÓVEIS: 320PX - 480PX
+IPADS E TABLETS: 481PX - 768PX
+LAPTOPS E TELAS PEQUENAS: 769PX - 1024PX
+TELAS GRANDES E DESKTOPS: 1025PX - 1200PX
+TV E TELAS EXTRAGRANDES - 1201PX - MAIS */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .consultas--card {
+        display: grid;
+        grid-gap: 0.313rem;
+        grid-auto-flow: column;
+        grid-template-columns: 15.031rem 15.031rem;
+        margin-right: 0.625rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    
+}
+
+@media screen and (min-width: 1201px) {
+    
+}

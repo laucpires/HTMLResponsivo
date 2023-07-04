@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+main {
+    margin-bottom: 6.25rem;
+}
+
+.consultas__span {
+    color: var(--texto);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.consultas__card {
+    background-color: #EBEBEB;
+    border-radius: 0.5rem;
+    padding: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+
+.consultas__card--info {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.consultas__card__img--paciente {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 1.25rem;
+}
+
+.consultas__card__span--paciente {
+    color: var(--texto);
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.consultas__card--tipo-consulta {
+    display: flex;
+    align-items: center;
+    gap: 0.313rem;
+}
+
+.consultas__card__img--camera,
+.consultas__card__img--loc {
+    width: 0.813rem;
+    height: 0.813rem;
+}
+
+.consultas__card--consulta {
+    color: var(--texto-claro);
+    font-size: 0.75rem;
+    line-height: 160%;
+}
+
+.consultas__card__img--icone {
+    width: 2rem;
+    height: 2rem;
+    margin-left: auto;
+}
+
+hr {
+    background-color: var(--texto-claro);
+    opacity: 0.2;
+    margin: 0.313rem 0rem;
+}
+
+.consultas__card__span--hora {
+    color: var(--texto);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.consultas__card__btn {
+    cursor: pointer;
+    color: var(--texto);
+    text-align: center;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    border: 0.063rem solid #E3E3E3;
+    border-radius: 0.5rem;
+    background-color: #E3E3E3;
+    padding: 0.313rem 0.625rem;
+}
+
+.btn--video {
+    color: #FFF;
+    border: none;
+    background-color: #FFB050;
+}
+
+.btn--loc {
+    color: #FFF;
+    border: none;
+    background: #4894FF;
+}
